@@ -1,0 +1,20 @@
+.rbc-calendar {
+  background-color: #f0f0f0;
+  overflow-y: auto;
+  border-radius: 5px;
+}
+
+.rbc-event {
+  background-color: transparent;
+  color: #000000;
+  overflow-y: auto;
+}
+
+.rbc-event.clicked {
+  background-color: #ffffff !important;
+}
+
+.rbc-event-content {
+  overflow-y: auto;
+  color: #000000;
+}
