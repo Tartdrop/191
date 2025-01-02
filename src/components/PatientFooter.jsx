@@ -6,11 +6,16 @@ const PatientFooter = () => {
   return (
     <div id="footbar">
             <nav>
-                <ul>
-                    <li><h4 style={{ color: '#FFFFFF' }}>© Doc Click Connect. All Rights Reserved. 2023</h4></li>
-                    <li style={{float:"right"}}><Link to={"/faqs"}>FAQs</Link></li>
-                    <li style={{float:"right"}}><Link to={"/about"}>About Us!</Link></li>
-                </ul>
+            <ul>
+              <li><h4 style={{ color: '#FFFFFF' }}>© CMSC 191 1st Semester 2024</h4></li>
+              <li style={{ float: 'right' }}>
+                <h4 style={{ color: '#FFFFFF' }}>
+                  <a style={{ textDecoration: 'none', color: '#FFFFFF' }}>
+                  kmlagasca@up.edu.ph & mruiz@up.edu.ph
+                  </a>
+                </h4>
+              </li>
+            </ul>
             </nav>
         </div>
   )

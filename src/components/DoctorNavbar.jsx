@@ -62,10 +62,7 @@ const DoctorNavbar = ({ username }) => {
         </ul>
         <ul>
           <li><Link to={`/docprofile/${username}`}>My Profile</Link></li>
-          <li><Link to={`/editdocprofile/${username}`}>Edit Profile</Link></li>
           <li><Link to={`/docappointments/${username}`}>My Appointments</Link></li>
-          <li><Link to={`/docaddclinic/${username}`}>Add Clinic</Link></li>
-          <li><Link to={`/docclinic/${username}`}>My Clinics</Link></li>
           <li style={{ float: 'right' }}>
             {user ? (
               <span style={{ color: "white", fontSize: "15px" }}>Hello, {user.user.firstName}! </span>

@@ -72,7 +72,6 @@ const PatientNavBar = ({ username }) => {
       </ul>
       <ul>
       <li><Link to={`/patprofile/${username}`}>My Profile</Link></li>
-        <li><Link to={`/editpatprofile/${username}`}>Edit Profile</Link></li>
         <li><Link to={`/patappointments/${username}`}>My Appointments</Link></li>
         <li><Link to={`/docsearch/${username}`}>Search Doctors</Link></li>
         <li style={{ float: 'right' }}>

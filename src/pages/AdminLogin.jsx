@@ -66,7 +66,7 @@ const AdminLogin = () => {
               <div className="overlay">
                   <div className="overlay-panel overlay-right">
                       <h1 style={overlayH1Style}>Hello there!</h1>
-                      <p>Request an Admin Account? <br />Contact us at support@docclickconnect.com</p>
+                      <p>Request an Admin Account? <br />Contact us at kmlagasca@up.edu.ph & mruiz@up.edu.ph</p>
                   </div>
               </div>
           </div>
